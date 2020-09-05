@@ -1,0 +1,19 @@
+syntax = "proto3";
+package callpb;
+
+message Req {
+  string path = 1;
+  string params = 2;
+}
+
+message Resp {
+  int32 code = 1;
+  string message = 2;
+  bytes data = 3;
+}
+
+service Srv {
+  rpc Call (Req) returns (Resp) {}
+}
+
+// protoc -I api/callpb --go_out=plugins=grpc:api/callpb/ api/callpb/call.proto

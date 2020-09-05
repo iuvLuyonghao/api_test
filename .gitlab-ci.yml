@@ -1,0 +1,18 @@
+stages:
+  - docker_build   # 镜像构建和打包推送阶段
+  - deploy_test #部署到dev环境
+variables:
+  KUBECONFIG: /etc/deploy/config  # 定义全局变量KUBECONFIG
+
+deploy_publish_job:
+ stage: deploy_test
+ tags:
+ - ecs
+ script:
+ - ssh root@10.51.236.240 'cd /opt/ops/qa/rcc_api_test && git pull'
+ - ssh root@10.51.236.240 'cd /opt/ops/qa/rcc_api_test && git branch'
+ - ssh root@10.51.236.240 'cd /opt/ops/qa/rcc_api_test && git status'
+ only: 
+ - master
+
+

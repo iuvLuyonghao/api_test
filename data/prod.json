@@ -1,0 +1,700 @@
+{
+  "version": "2.0",
+  "data": [
+    {
+      "username": "IT部总监",
+      "username": "w.deng",
+      "username_sanmi": "销售主管",
+      "username_sanmi": "sanmi.yi",
+      "username_henry": "咨询主管",
+      "username_henry": "henry.zhu",
+      "username_allen": "销售顾问",
+      "username_allen": "allen.wang",
+      "username_cynthia": "咨询顾问",
+      "username_cynthia": "cynthia.yang",
+      "username_irene": "销售经理",
+      "username_irene": "irene.liu",
+      "username_tansy": "客服经理",
+      "username_tansy": "tansy.zhu",
+      "password": "it_test123",
+      "@object": "account",
+      "@extended": {
+        "label": "user"
+      }
+    },
+    {
+      "username": "allen.wang",
+      "password": "it_test123",
+      "@object": "account",
+      "@extended": {
+        "label": "user_allen_wang"
+      }
+    },
+    {
+      "username": "zoe.wang",
+      "password": "it_test123",
+      "employee_id": "39201",
+      "@object": "account",
+      "@extended": {
+        "label": "user_zoe_wang"
+      }
+    },
+    {
+      "username": "irene.liu",
+      "password": "it_test123",
+      "employee_id": "10243",
+      "@object": "account",
+      "@extended": {
+        "label": "user_irene_liu"
+      }
+    },
+    {
+      "username": "zhao.zhang",
+      "password": "it_test123",
+      "employee_id": "440346",
+      "@object": "account",
+      "@extended": {
+        "label": "user_zhao_zhang"
+      }
+    },
+    {
+      "username": "allen.wang",
+      "password": "it_test123",
+      "employee_id": "440212",
+      "sales_leader_id": 786356,
+      "sales_leader_username": "doris.dai",
+      "@object": "account",
+      "@extended": {
+        "label": "user_allen_wang"
+      }
+    },
+    {
+      "username": "amos.sun",
+      "password": "it_test123",
+      "employee_id": "786541",
+      "@object": "account",
+      "@extended": {
+        "label": "user_amos_sun"
+      }
+    },
+    {
+      "username": "tara.lai",
+      "password": "it_test123",
+      "employee_id": "30617",
+      "@object": "account",
+      "@extended": {
+        "label": "user_tara_lai"
+      }
+    },
+    {
+      "branch_office_ids": "[3]",
+      "department_ids": "[3]",
+      "employee_ids": "[440212]",
+      "appt_date_min": 1575129600,
+      "appt_date_max": 1577807999,
+      "@object": "account",
+      "@extended": {
+        "label": "search_stat"
+      }
+    },
+    {
+      "router_name": "352652",
+      "@object": "account",
+      "@extended": {
+        "label": "collection_data"
+      }
+    },
+    {
+      "province_id": "[3]",
+      "city_id": "[36]",
+      "department_id": 1,
+      "position_id": 1,
+      "page": "1",
+      "per_page": 1,
+      "order": [
+        {
+          "last_contact_time": "desc"
+        }
+      ],
+      "key_people": 1,
+      "resign": 1,
+      "search_name": "",
+      "sub_firm_id": 1,
+      "@object": "account",
+      "@extended": {
+        "label": "simple_search_data"
+      }
+    },
+    {
+      "contact_name": "测试",
+      "salutation": "先生",
+      "department_id": "",
+      "positions_id": "",
+      "mobile": "",
+      "email": "",
+      "telephone": "",
+      "fax": "",
+      "province_id": [],
+      "city_id": [],
+      "address": "",
+      "note": "",
+      "page": 1,
+      "per_page": 1,
+      "order": [],
+      "@object": "account",
+      "@extended": {
+        "label": "search_data"
+      }
+    },
+    {
+      "new_sales_id": 440212,
+      "sub_firm_id": 1,
+      "leads_type_id": 1,
+      "@object": "account",
+      "@extended": {
+        "label": "get_leads_data"
+      }
+    },
+    {
+      "sub_firm_id": 1,
+      "@object": "account",
+      "@extended": {
+        "label": "check_release_leads_data1"
+      }
+    },
+    {
+      "sub_firm_id": 1,
+      "@object": "account",
+      "@extended": {
+        "label": "check_release_leads_data1"
+      }
+    },
+    {
+      "new_sales_id": 18430,
+      "sub_firm_id": 197610,
+      "leads_type_id": 1,
+      "job_title_id": 10007,
+      "role_ids": "[14,19,20]",
+      "release_reason_id": 101,
+      "release_type_id": 1,
+      "@object": "account",
+      "@extended": {
+        "label": "get_leads_data_p1"
+      }
+    },
+    {
+      "new_sales_id": 18430,
+      "sub_firm_id": 197610,
+      "leads_type_id": [
+        1,
+        4,
+        5,
+        6,
+        9,
+        11,
+        12,
+        13,
+        15,
+        10020
+      ],
+      "job_title_id": 10007,
+      "role_ids": "[15]",
+      "release_reason_id": 101,
+      "release_type_id": 1,
+      "@object": "account",
+      "@extended": {
+        "label": "get_leads_data_level2"
+      }
+    },
+    {
+      "new_sales_id": 18430,
+      "sub_firm_id": 197610,
+      "leads_type_id": 1,
+      "job_title_id": 10007,
+      "role_ids": "[16]",
+      "release_reason_id": 101,
+      "give_up_reason_id": 1,
+      "release_type_id": 1,
+      "@object": "account",
+      "@extended": {
+        "label": "get_leads_data_level3"
+      }
+    },
+    {
+      "new_sales_id": 18430,
+      "sub_firm_id": 197610,
+      "leads_type_id": 1,
+      "job_title_id": 10007,
+      "role_ids": "[17]",
+      "release_reason_id": 101,
+      "give_up_reason_id": 1,
+      "release_type_id": 1,
+      "@object": "account",
+      "@extended": {
+        "label": "get_leads_data_level4"
+      }
+    },
+    {
+      "new_sales_id": 18430,
+      "sub_firm_id": 197610,
+      "leads_type_id": 1,
+      "job_title_id": 10007,
+      "role_ids": "[18]",
+      "release_reason_id": 1,
+      "give_up_reason_id": 1,
+      "release_type_id": 1,
+      "@object": "account",
+      "@extended": {
+        "label": "get_leads_data_level5"
+      }
+    },
+    {
+      "new_sales_id": 18430,
+      "sub_firm_id": 197610,
+      "leads_type_id": 1,
+      "job_title_id": 10007,
+      "role_ids": "[19]",
+      "release_reason_id": 1,
+      "give_up_reason_id": 1,
+      "release_type_id": 1,
+      "@object": "account",
+      "@extended": {
+        "label": "get_leads_data_level6"
+      }
+    },
+    {
+      "new_sales_id": 440042,
+      "sub_firm_id": 304275,
+      "leads_type_id": 1,
+      "job_title_id": 10012,
+      "role_ids": "[14]",
+      "release_reason_id": 1,
+      "give_up_reason_id": 1,
+      "release_type_id": 1,
+      "@object": "account",
+      "@extended": {
+        "label": "get_leads_data_p1_service"
+      }
+    },
+    {
+      "new_sales_id": 440042,
+      "sub_firm_id": 304275,
+      "leads_type_id": 1,
+      "job_title_id": 10012,
+      "role_ids": "[15]",
+      "release_reason_id": 1,
+      "give_up_reason_id": 1,
+      "release_type_id": 1,
+      "@object": "account",
+      "@extended": {
+        "label": "get_leads_data_level2_service"
+      }
+    },
+    {
+      "new_sales_id": 440042,
+      "sub_firm_id": 304275,
+      "leads_type_id": 1,
+      "job_title_id": 10012,
+      "role_ids": "[16]",
+      "release_reason_id": 1,
+      "give_up_reason_id": 1,
+      "release_type_id": 1,
+      "@object": "account",
+      "@extended": {
+        "label": "get_leads_data_level3_service"
+      }
+    },
+    {
+      "new_sales_id": 440042,
+      "sub_firm_id": 304275,
+      "leads_type_id": 1,
+      "job_title_id": 10012,
+      "role_ids": "[19]",
+      "release_reason_id": 1,
+      "give_up_reason_id": 1,
+      "release_type_id": 1,
+      "@object": "account",
+      "@extended": {
+        "label": "get_leads_data_level4_service"
+      }
+    },
+    {
+      "new_sales_id": 440042,
+      "sub_firm_id": 304275,
+      "leads_type_id": 1,
+      "job_title_id": 10012,
+      "role_ids": "[18]",
+      "release_reason_id": 1,
+      "give_up_reason_id": 1,
+      "release_type_id": 1,
+      "@object": "account",
+      "@extended": {
+        "label": "get_leads_data_level5_service"
+      }
+    },
+    {
+      "new_sales_id": 440042,
+      "sub_firm_id": 304275,
+      "leads_type_id": 1,
+      "job_title_id": 10012,
+      "role_ids": "[19]",
+      "release_reason_id": 1,
+      "give_up_reason_id": 1,
+      "release_type_id": 1,
+      "@object": "account",
+      "@extended": {
+        "label": "get_leads_data_level6_service"
+      }
+    },
+    {
+      "lead_id": 154990,
+      "sub_firm_id": 137313,
+      "sub_firm_name": "北京高和华泰节能环保科技有限公司",
+      "leads_type_value": "project_info",
+      "leads_type_id": 1,
+      "@object": "account",
+      "@extended": {
+        "label": "leads_154990"
+      }
+    },
+    {
+      "username": "neko.zhou",
+      "password": "it_test123",
+      "@object": "account",
+      "@extended": {
+        "label": "user_neko_zhou"
+      }
+    },
+    {
+      "sub_firm_id": 3,
+      "free_subscriber_ids1": [],
+      "free_subscriber_ids2": "[67760]",
+      "free_subscriber_ids3": "[67760,22251]",
+      "delay_day": 1,
+      "delay_day99": 99,
+      "delay_day9999999": 9999999,
+      "@object": "account",
+      "@extended": {
+        "label": "delay"
+      }
+    },
+    {
+      "username": "111111",
+      "username1": "test1",
+      "username2": "",
+      "sub_firm_id": 206798,
+      "sub_firm_id1": "",
+      "sub_firm_id2": "1111111111111111",
+      "sub_firm_id3": "369663",
+      "@object": "account",
+      "@extended": {
+        "label": "freesubscriber"
+      }
+    },
+    {
+      "sub_firm_id": 26231,
+      "sub_contact_id": 40188,
+      "contact_name": "仲健",
+      "mobile": "13700000005",
+      "email": "zhongjian@jwac.net jianweicom@263.net",
+      "@object": "account",
+      "@extended": {
+        "label": "sub_contact_40188"
+      }
+    },
+    {
+      "sub_firm_id": 1,
+      "free_subscribers": [],
+      "free_subscriber_setting": {
+        "max_project_count": 1,
+        "project_per_page": 1,
+        "pl_style": 1,
+        "estimate_payment": 1,
+        "active": 1,
+        "lock_count": 1,
+        "language_id": 1,
+        "vip_type": 1,
+        "view_all_firms": 1,
+        "other_options_attrs": {
+          "email_when_login": 1,
+          "ip_limit": 1,
+          "login_to": 1,
+          "show_all_projects": 1,
+          "show_project_report": 1,
+          "show_all_version": 1,
+          "hide_rare_role": 1,
+          "next_login_without_welcome": 1,
+          "max_firm_export_per_day": 1,
+          "bid_index_default_show": "",
+          "default_hide_pnews": "",
+          "default_hide_pmsg": "",
+          "default_hide_pfup": [],
+          "hide_project_attrs": []
+        }
+      },
+      "subscriptions": {
+        "project_resource": false,
+        "project_type_ids": [],
+        "purchase_limit": 1,
+        "base": {
+          "login_start": 1,
+          "login_end": 1,
+          "sub_start": 1,
+          "sub_end": 1,
+          "active": 1
+        },
+        "project_info_flag": false,
+        "project_info": {
+          "country_id": [],
+          "region_id": [],
+          "province_id": [],
+          "project_category": {
+            "category_ids": [],
+            "sub_category_ids": []
+          },
+          "project_stage_id": [],
+          "projectid": "",
+          "ownerid": [],
+          "devid": [],
+          "foreign_participation": [],
+          "aircondition": [],
+          "major": [],
+          "heating_type": [],
+          "curtain_wall": []
+        },
+        "bid_info_flag": false,
+        "bid_info": {
+          "country_id": [],
+          "region_id": [],
+          "province_id": [],
+          "product_category": [],
+          "product_kw": "",
+          "usage_category": [],
+          "purchase_category": []
+        }
+      },
+      "@object": "account",
+      "@extended": {
+        "label": "freesubscribers1"
+      }
+    },
+    {
+      "sub_firm_id": 1,
+      "free_subscribers": [
+        {
+          "contact_id": 1,
+          "username": 1,
+          "password": 123456
+        }
+      ],
+      "free_subscriber_setting": {
+        "max_project_count": 1,
+        "project_per_page": 1,
+        "pl_style": 1,
+        "estimate_payment": 1,
+        "active": 1,
+        "lock_count": 1,
+        "language_id": 1,
+        "vip_type": 1,
+        "view_all_firms": 1,
+        "other_options_attrs": {
+          "email_when_login": 1,
+          "ip_limit": 1,
+          "login_to": 1,
+          "show_all_projects": 1,
+          "show_project_report": 1,
+          "show_all_version": 1,
+          "hide_rare_role": 1,
+          "next_login_without_welcome": 1,
+          "max_firm_export_per_day": 1,
+          "bid_index_default_show": "",
+          "default_hide_pnews": "",
+          "default_hide_pmsg": "",
+          "default_hide_pfup": [],
+          "hide_project_attrs": []
+        }
+      },
+      "subscriptions": {
+        "project_resource": false,
+        "project_type_ids": [],
+        "purchase_limit": 1,
+        "base": {
+          "login_start": 1,
+          "login_end": 1,
+          "sub_start": 1,
+          "sub_end": 1,
+          "active": 1
+        },
+        "project_info_flag": false,
+        "project_info": {
+          "country_id": [],
+          "region_id": [],
+          "province_id": [],
+          "project_category": {
+            "category_ids": [],
+            "sub_category_ids": []
+          },
+          "project_stage_id": [],
+          "projectid": "",
+          "ownerid": [],
+          "devid": [],
+          "foreign_participation": [],
+          "aircondition": [],
+          "major": [],
+          "heating_type": [],
+          "curtain_wall": []
+        },
+        "bid_info_flag": false,
+        "bid_info": {
+          "country_id": [],
+          "region_id": [],
+          "province_id": [],
+          "product_category": [],
+          "product_kw": "",
+          "usage_category": [],
+          "purchase_category": []
+        }
+      },
+      "@object": "account",
+      "@extended": {
+        "label": "freesubscribers2"
+      }
+    },
+    {
+      "ids": "[304140]",
+      "ids1": "[]",
+      "ids2": "[1234444444444]",
+      "sales_ids": "[]",
+      "firm_name": "测试",
+      "register_capital_min": 1000,
+      "register_capital_min1": "'",
+      "@object": "account",
+      "@extended": {
+        "label": "detail_search"
+      }
+    },
+    {
+      "options": [],
+      "options1": [
+        1
+      ],
+      "options2": [
+        "sources"
+      ],
+      "@object": "account",
+      "@extended": {
+        "label": "options"
+      }
+    },
+    {
+      "firm_name": "内蒙古小飞侠公司",
+      "home_country_id": 8,
+      "country_id": 8,
+      "firm_name1": "",
+      "home_country_id1": "",
+      "country_id1": "",
+      "@object": "account",
+      "@extended": {
+        "label": "create_sub_firms"
+      }
+    },
+    {
+      "id": 369762,
+      "firm_name11": "上海小飞侠公司",
+      "home_country_id": 9,
+      "country_id": 9,
+      "@object": "account",
+      "@extended": {
+        "label": "change_sub_firms"
+      }
+    },
+    {
+      "id": 369762,
+      "id1": 369762999999999999,
+      "@object": "account",
+      "@extended": {
+        "label": "firm_info"
+      }
+    },
+    {
+      "options": [],
+      "sub_firm_id": 264462,
+      "@object": "account",
+      "@extended": {
+        "label": "contactoptions"
+      }
+    },
+    {
+      "sub_contact_id": 38994,
+      "resign": 1,
+      "@object": "account",
+      "@extended": {
+        "label": "set_resign"
+      }
+    },
+    {
+      "job_title_id": 1,
+      "job_title_id1": "'",
+      "job_title_id2": "",
+      "job_title_id3": "HttpRunner数据驱动，hook功能还未来得及开发，3.0版本会同步支持，邮件提醒，报告下载，运行方式选择以及调用java进行加签加密后面会全部支持，谢谢大家支持",
+      "role_ids": [
+        ""
+      ],
+      "role_ids1": [
+        "1"
+      ],
+      "role_ids2": "[22]",
+      "@object": "account",
+      "@extended": {
+        "label": "right_roles"
+      }
+    },
+    {
+      "data": {
+        "branch_office_ids": 1,
+        "department_ids": "'",
+        "leader_ids": "",
+        "sales_ids": "",
+        "ratings": "[]"
+      },
+      "data1": {
+        "branch_office_ids": 1,
+        "department_ids": "'",
+        "leader_ids": "",
+        "sales_ids": "",
+        "ratings": "[]",
+        "sub_firm_name": "先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也,宫中府中，俱为一体，陟罚臧否，不宜异同。若有作奸犯科及为忠善者，宜付有司论其刑赏，以昭陛下平明之理，不宜偏私，使内外异法也。侍中、侍郎郭攸之、费祎、董允等，此皆良实，志虑忠纯，是以先帝简拔以遗陛下。愚以为宫中之事，事无大小，悉以咨之，然后施行，必能裨补阙漏，有所广益。"
+      },
+      "@object": "account",
+      "@extended": {
+        "label": "searchdata"
+      }
+    },
+    {
+      "new_sales_id": "",
+      "sub_firm_id": "",
+      "leads_type_id": "",
+      "new_sales_id1": 18430,
+      "sub_firm_id1": 291466,
+      "leads_type_id1": 1,
+      "@object": "account",
+      "@extended": {
+        "label": "grab"
+      }
+    },
+    {
+      "a_id": 87684,
+      "username": "skye测试6",
+      "sub_firm_id": 255309,
+      "sub_firm_name": "北京瑞达恒（IT测试用公司请不要获取）",
+      "pl_style": "建筑版",
+      "created_by_name": "w.deng",
+      "project_per_page": 50,
+      "pl_style_label": "建筑版",
+      "vip_text": "vip2",
+      "@extended": {
+        "label": "sub_firm_id_255309"
+      }
+    }
+  ]
+}

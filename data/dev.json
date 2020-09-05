@@ -1,0 +1,13 @@
+{
+  "version": "2.0",
+  "data": [
+    {
+      "username": "w.deng",
+      "password": "it_test123",
+      "@object": "account",
+      "@extended": {
+        "label": "user"
+      }
+    }
+  ]
+}
